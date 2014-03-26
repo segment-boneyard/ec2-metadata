@@ -11,7 +11,7 @@ module.exports = function(field, fn){
     .timeout(400)
     .end(function (err, res) {
       if (err) return fn(err);
-      if (res.status !== 200) return fn(error(res.status, res.body));
-      fn(null, res.body);
+      if (res.status !== 200) return fn(error(res.status, res.text));
+      fn(null, res.text);
     });
 };
