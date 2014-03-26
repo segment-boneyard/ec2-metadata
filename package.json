@@ -1,6 +1,6 @@
 {
   "name": "ec2-metadata",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Returns the EC2 metadata for an instance",
   "keywords": [],
   "author": "Segment.io team@segment.io",
