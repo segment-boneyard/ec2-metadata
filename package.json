@@ -1,0 +1,19 @@
+{
+  "name": "ec2-metadata",
+  "version": "0.0.1",
+  "description": "Returns the EC2 metadata for an instance",
+  "keywords": [],
+  "author": "Segment.io team@segment.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/segmentio/.git"
+  },
+  "dependencies": {
+    "superagent": "^0.17.0",
+    "http-error": "segmentio/http-error#0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "index"
+}
